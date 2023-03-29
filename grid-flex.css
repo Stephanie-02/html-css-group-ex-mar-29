@@ -20,3 +20,60 @@ body {
   justify-content: center;
   min-height: 100vh;
 }
+
+.body-container {
+  background-color: #c4ebf9;
+  padding: 35px;
+  display: grid;
+  grid-template-rows: 60px 60px auto 60px;
+  gap: 30px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+header, footer {
+  background-color: #03bfb1;
+  text-align: center;
+}
+
+nav {
+  background-color: #33c361;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.article-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+aside {
+  background-color: #6edb6e;
+  padding: 20px;
+}
+
+.content {
+  background-color: #0f98c6;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.section {
+  background-color: #005b92;
+  padding: 40px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
